@@ -8,6 +8,7 @@ class Main {
 
 	Main m1 = new Main();
 	m1.kidsWithCandies();
+	m1.numOfStepsToReduceNumToZero();
     }
 
     public void kidsWithCandies(){
@@ -18,5 +19,16 @@ class Main {
         for(boolean i :results){
             System.out.println(i);
         }
+    }
+
+    public void numOfStepsToReduceNumToZero(){
+        numOfStepsToReduceNumToZero test = new numOfStepsToReduceNumToZero();
+        int numEven = 8;
+        int numOdd = 123;
+        int zero = 0;
+
+        System.out.println("Even Number: " + test.numberOfSteps(numEven));
+        System.out.println("Odd Number: " + test.numberOfSteps(numOdd));
+        System.out.println("Zero Number: " + test.numberOfSteps(zero));
     }
 }
