@@ -9,6 +9,7 @@ class Main {
 	Main m1 = new Main();
 	m1.kidsWithCandies();
 	m1.numOfStepsToReduceNumToZero();
+	m1.jewelsAndStones();
     }
 
     public void kidsWithCandies(){
@@ -17,8 +18,10 @@ class Main {
         int extraCandies = 10;
         List<Boolean> results = test1.findGreatestNumberOfCandies(array,extraCandies);
         for(boolean i :results){
-            System.out.println(i);
+            System.out.print(i);
+            System.out.print(", ");
         }
+        System.out.println();
     }
 
     public void numOfStepsToReduceNumToZero(){
@@ -27,8 +30,16 @@ class Main {
         int numOdd = 123;
         int zero = 0;
 
-        System.out.println("Even Number: " + test.numberOfSteps(numEven));
-        System.out.println("Odd Number: " + test.numberOfSteps(numOdd));
-        System.out.println("Zero Number: " + test.numberOfSteps(zero));
+        System.out.print("Even Number: " + test.numberOfSteps(numEven));
+        System.out.print(", Odd Number: " + test.numberOfSteps(numOdd));
+        System.out.println(", Zero Number: " + test.numberOfSteps(zero));
+    }
+
+    public void jewelsAndStones(){
+        jewelsAndStones test = new jewelsAndStones();
+        String j = "aA";
+        String s = "aAAbbbb";
+        System.out.print("[j : " + j + " and  s : " + s + "], ");
+        System.out.print("Number of j in s is : " + test.numJewelsInStonesFasterVersion(j,s));
     }
 }
