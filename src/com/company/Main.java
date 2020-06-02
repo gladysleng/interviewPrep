@@ -7,10 +7,11 @@ class Main {
     public static void main(String[] args) {
 
         Main m1 = new Main();
-//        m1.kidsWithCandies();
-//        m1.numOfStepsToReduceNumToZero();
-//        m1.jewelsAndStones();
+        m1.kidsWithCandies();
+        m1.numOfStepsToReduceNumToZero();
+        m1.jewelsAndStones();
         m1.invertBinaryTree();
+        m1.defangingIPAdressTest();
     }
 
     public void kidsWithCandies() {
@@ -59,6 +60,12 @@ class Main {
         System.out.println();
         invert1.printPreOrder(invert1.invertTree(binaryTree));
 
+    }
+
+    public void defangingIPAdressTest(){
+        defangingIPAddress df = new defangingIPAddress();
+        System.out.println();
+        System.out.println(df.defangIPaddr("1.1.2"));
 
     }
 }
