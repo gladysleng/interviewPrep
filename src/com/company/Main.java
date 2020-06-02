@@ -7,11 +7,12 @@ class Main {
     public static void main(String[] args) {
 
         Main m1 = new Main();
-        m1.kidsWithCandies();
-        m1.numOfStepsToReduceNumToZero();
-        m1.jewelsAndStones();
-        m1.invertBinaryTree();
-        m1.defangingIPAdressTest();
+//        m1.kidsWithCandies();
+//        m1.numOfStepsToReduceNumToZero();
+//        m1.jewelsAndStones();
+//        m1.invertBinaryTree();
+//        m1.defangingIPAdressTest();
+        m1.smallerNumberThanCurrentTest();
     }
 
     public void kidsWithCandies() {
@@ -67,5 +68,17 @@ class Main {
         System.out.println();
         System.out.println(df.defangIPaddr("1.1.2"));
 
+    }
+
+    public void smallerNumberThanCurrentTest(){
+        smallerNumberThanCurrent smallerNumThanCurrent = new smallerNumberThanCurrent();
+        int[] array = {8,1,2,2,3};
+        int[]arr2 = {1};
+        int [] arr3 = {};
+        int [] arr4 = {1,1};
+        smallerNumThanCurrent.smallerNumbersThanCurrent(array);
+        smallerNumThanCurrent.smallerNumbersThanCurrent(arr2);
+        smallerNumThanCurrent.smallerNumbersThanCurrent(arr3);
+        smallerNumThanCurrent.smallerNumbersThanCurrent(arr4);
     }
 }
