@@ -12,7 +12,8 @@ class Main {
 //        m1.jewelsAndStones();
 //        m1.invertBinaryTree();
 //        m1.defangingIPAdressTest();
-        m1.smallerNumberThanCurrentTest();
+//        m1.smallerNumberThanCurrentTest();
+        m1.substractProductAndSumTest();
     }
 
     public void kidsWithCandies() {
@@ -80,5 +81,11 @@ class Main {
         smallerNumThanCurrent.smallerNumbersThanCurrent(arr2);
         smallerNumThanCurrent.smallerNumbersThanCurrent(arr3);
         smallerNumThanCurrent.smallerNumbersThanCurrent(arr4);
+    }
+
+    public void substractProductAndSumTest(){
+        int a = 234;
+        subtractProductAndSum test = new subtractProductAndSum();
+        test.subtractProductAndSum(a);
     }
 }
