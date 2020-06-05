@@ -13,7 +13,8 @@ class Main {
 //        m1.invertBinaryTree();
 //        m1.defangingIPAdressTest();
 //        m1.smallerNumberThanCurrentTest();
-        m1.substractProductAndSumTest();
+//        m1.substractProductAndSumTest();
+        m1.twoCitiesSchedulingCosts();
     }
 
     public void kidsWithCandies() {
@@ -87,5 +88,11 @@ class Main {
         int a = 234;
         subtractProductAndSum test = new subtractProductAndSum();
         test.subtractProductAndSum(a);
+    }
+
+    public void twoCitiesSchedulingCosts(){
+        int [][] arr = {{10,20},{30,200},{400,50},{30,20}};
+        twoCitiesSchedulingCosts test = new twoCitiesSchedulingCosts();
+        test.twoCitySchedCost(arr);
     }
 }
