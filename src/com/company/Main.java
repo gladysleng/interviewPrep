@@ -14,7 +14,8 @@ class Main {
 //        m1.defangingIPAdressTest();
 //        m1.smallerNumberThanCurrentTest();
 //        m1.substractProductAndSumTest();
-        m1.twoCitiesSchedulingCosts();
+//        m1.twoCitiesSchedulingCosts();
+        m1.reverseStringTest();
     }
 
     public void kidsWithCandies() {
@@ -94,5 +95,13 @@ class Main {
         int [][] arr = {{10,20},{30,200},{400,50},{30,20}};
         twoCitiesSchedulingCosts test = new twoCitiesSchedulingCosts();
         test.twoCitySchedCost(arr);
+    }
+
+    public void reverseStringTest(){
+        reverseString test = new reverseString();
+        char [] a = {'s','t','r','i','n','g'};
+        char [] b = {'d','i','r','e','c','t','i','o','n','a','l'};
+        test.reverseString(a);
+        test.reverseString(b);
     }
 }
