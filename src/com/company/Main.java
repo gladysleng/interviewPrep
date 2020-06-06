@@ -15,7 +15,7 @@ class Main {
 //        m1.smallerNumberThanCurrentTest();
 //        m1.substractProductAndSumTest();
 //        m1.twoCitiesSchedulingCosts();
-        m1.reverseStringTest();
+//        m1.reverseStringTest();
     }
 
     public void kidsWithCandies() {
@@ -103,5 +103,12 @@ class Main {
         char [] b = {'d','i','r','e','c','t','i','o','n','a','l'};
         test.reverseString(a);
         test.reverseString(b);
+    }
+
+    public void randomPickWithWeightTest(){
+        int [] w = {};
+        randomPickWithWeight test = new randomPickWithWeight(w);
+        System.out.println(test.pickIndex());
+
     }
 }
