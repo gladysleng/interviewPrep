@@ -16,6 +16,7 @@ class Main {
 //        m1.substractProductAndSumTest();
 //        m1.twoCitiesSchedulingCosts();
 //        m1.reverseStringTest();
+        
     }
 
     public void kidsWithCandies() {
@@ -110,5 +111,11 @@ class Main {
         randomPickWithWeight test = new randomPickWithWeight(w);
         System.out.println(test.pickIndex());
 
+    }
+
+    public void queueReconstructionTest(){
+        queueReconstructionByHeight t = new queueReconstructionByHeight();
+        int [][] people = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
+        t.reconstructQueue(people);
     }
 }
