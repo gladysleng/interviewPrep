@@ -16,6 +16,7 @@ class Main {
 //        m1.substractProductAndSumTest();
 //        m1.twoCitiesSchedulingCosts();
 //        m1.reverseStringTest();
+        m1.titleToNumberTest();
         
     }
 
@@ -117,5 +118,13 @@ class Main {
         queueReconstructionByHeight t = new queueReconstructionByHeight();
         int [][] people = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
         t.reconstructQueue(people);
+    }
+
+    public void titleToNumberTest(){
+        titleToNumber t = new titleToNumber();
+        String a = "A";
+        String b = "ZY";
+        System.out.println(t.titleToNumber(a));
+        System.out.println(t.titleToNumber(b));
     }
 }
