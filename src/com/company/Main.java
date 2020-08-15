@@ -16,8 +16,8 @@ class Main {
 //        m1.substractProductAndSumTest();
 //        m1.twoCitiesSchedulingCosts();
 //        m1.reverseStringTest();
-        m1.titleToNumberTest();
-        
+//        m1.titleToNumberTest();
+        m1.longestPalindromeTest();
     }
 
     public void kidsWithCandies() {
@@ -126,5 +126,11 @@ class Main {
         String b = "ZY";
         System.out.println(t.titleToNumber(a));
         System.out.println(t.titleToNumber(b));
+    }
+
+    public void longestPalindromeTest(){
+        LongestPalindrome t = new LongestPalindrome();
+        String a = "bbbaa";
+        System.out.println(t.LongestPalindrome(a));
     }
 }
