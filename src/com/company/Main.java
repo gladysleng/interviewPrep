@@ -17,7 +17,9 @@ class Main {
 //        m1.twoCitiesSchedulingCosts();
 //        m1.reverseStringTest();
 //        m1.titleToNumberTest();
-        m1.longestPalindromeTest();
+//        m1.longestPalindromeTest();
+ //       m1.numbersWithSameConsecutiveDifferencesTest();
+        m1.longestTimeForGivenDigitsTest();
     }
 
     public void kidsWithCandies() {
@@ -132,5 +134,18 @@ class Main {
         LongestPalindrome t = new LongestPalindrome();
         String a = "bbbaa";
         System.out.println(t.LongestPalindrome(a));
+    }
+
+    public void numbersWithSameConsecutiveDifferencesTest(){
+        NumbersWithSameConsecutiveDifferences t = new NumbersWithSameConsecutiveDifferences();
+        t.numsSameConsecDiff(2,1);
+
+    }
+
+    public void longestTimeForGivenDigitsTest(){
+        LongestTimeForGivenDigits t = new LongestTimeForGivenDigits();
+        int [] digits  = {1,2,3,4};
+        System.out.println(t.largestTimeFromDigits(digits));
+
     }
 }
