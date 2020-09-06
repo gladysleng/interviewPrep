@@ -19,7 +19,9 @@ class Main {
 //        m1.titleToNumberTest();
 //        m1.longestPalindromeTest();
  //       m1.numbersWithSameConsecutiveDifferencesTest();
-        m1.longestTimeForGivenDigitsTest();
+//        m1.longestTimeForGivenDigitsTest();
+//        m1.returnSmallestPositiveInt();
+        m1.numOfStepsReduceToZeroFromBinaryTest();
     }
 
     public void kidsWithCandies() {
@@ -36,13 +38,16 @@ class Main {
 
     public void numOfStepsToReduceNumToZero() {
         numOfStepsToReduceNumToZero test = new numOfStepsToReduceNumToZero();
-        int numEven = 8;
-        int numOdd = 123;
-        int zero = 0;
 
-        System.out.print("Even Number: " + test.numberOfSteps(numEven));
-        System.out.print(", Odd Number: " + test.numberOfSteps(numOdd));
-        System.out.println(", Zero Number: " + test.numberOfSteps(zero));
+        int i = 1;
+ //       int numOdd = 123;
+ //       int zero = 0;
+
+        String binString = Integer.toBinaryString(i);
+        System.out.println(binString);
+        System.out.println(test.numberOfSteps(i));
+ //       System.out.print(", Odd Number: " + test.numberOfSteps(numOdd));
+ //       System.out.println(", Zero Number: " + test.numberOfSteps(zero));
     }
 
     public void jewelsAndStones() {
@@ -148,4 +153,18 @@ class Main {
         System.out.println(t.largestTimeFromDigits(digits));
 
     }
+
+    public void returnSmallestPositiveInt(){
+        ReturnSmallestPositiveInt t = new ReturnSmallestPositiveInt();
+        int [] A = {};
+        System.out.println(t.returnSmallestPositiveInt(A));
+    }
+
+    public void numOfStepsReduceToZeroFromBinaryTest(){
+        numOfStepsReduceToZeroFromBinary t = new numOfStepsReduceToZeroFromBinary();
+        String binary = "0";
+        System.out.println("binary steps: " + t.numOfStepsReduceToZeroFromBinary(binary));
+
+    }
+
 }

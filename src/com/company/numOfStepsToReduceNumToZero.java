@@ -8,9 +8,6 @@ public class numOfStepsToReduceNumToZero {
     public int numberOfSteps (int num) {
         int counterForSteps = 0 ;
 
-        if(num >= Math.pow(10,6) || num < 0 ){
-            throw new ArithmeticException("Number is invalid");
-        }
         while(num != 0){
             if(num%2 == 0){
                 num = num/2;
