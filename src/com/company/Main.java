@@ -21,7 +21,9 @@ class Main {
  //       m1.numbersWithSameConsecutiveDifferencesTest();
 //        m1.longestTimeForGivenDigitsTest();
 //        m1.returnSmallestPositiveInt();
-        m1.numOfStepsReduceToZeroFromBinaryTest();
+//        m1.numOfStepsReduceToZeroFromBinaryTest();
+ //       m1.returnTheMaxTest();
+        m1.sunkenShipsTest();
     }
 
     public void kidsWithCandies() {
@@ -165,6 +167,28 @@ class Main {
         String binary = "0";
         System.out.println("binary steps: " + t.numOfStepsReduceToZeroFromBinary(binary));
 
+    }
+
+    public void returnTheMaxTest(){
+        returnTheMaximumAmongOneDigitNum t = new returnTheMaximumAmongOneDigitNum();
+        int [] a = {-10,-30,-40,0,4,9};  // return 9
+        int [] b = {0,-10,-11,-12,-2}; //return 0
+        int [] c = {1,1,1,1,2,-8,};// return 2
+        int [] d = {-4,-3,-1,-9}; // return -1
+        int [] e = {1,6,2,8}; // return 8
+        int [] f = {0};// return 0
+
+        System.out.println(t.returnTheOneDigitMax(a));
+        System.out.println(t.returnTheOneDigitMax(b));
+        System.out.println(t.returnTheOneDigitMax(c));
+        System.out.println(t.returnTheOneDigitMax(d));
+        System.out.println(t.returnTheOneDigitMax(e));
+        System.out.println(t.returnTheOneDigitMax(f));
+    }
+
+    public void sunkenShipsTest(){
+        sunkenShips t = new sunkenShips();
+        System.out.println(t.solution(12, "1A 2B,12A 12A", "12A 1A 2A"));
     }
 
 }
