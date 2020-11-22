@@ -23,7 +23,9 @@ class Main {
 //        m1.returnSmallestPositiveInt();
 //        m1.numOfStepsReduceToZeroFromBinaryTest();
  //       m1.returnTheMaxTest();
-        m1.sunkenShipsTest();
+//        m1.sunkenShipsTest();
+//        m1.spaceTest();
+        m1.trendTest();
     }
 
     public void kidsWithCandies() {
@@ -190,5 +192,14 @@ class Main {
         sunkenShips t = new sunkenShips();
         System.out.println(t.solution(12, "1A 2B,12A 12A", "12A 1A 2A"));
     }
+    public void spaceTest(){
+        Space t = new Space();
+        t.printStar();
+    }
 
+    public void trendTest(){
+        trendmicro test = new trendmicro();
+        int [] a = {1,4,4,8,8,5,10};
+        System.out.println(test.solution(a));
+    }
 }
