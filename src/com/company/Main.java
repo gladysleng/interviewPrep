@@ -27,7 +27,8 @@ class Main {
 //        m1.spaceTest();
 //        m1.trendTest();
  //       m1.fizzbussTest();
-        m1.reverseInteger();
+//        m1.reverseInteger();
+        m1.firstUniqueCharacterTest();
     }
 
     public void kidsWithCandies() {
@@ -213,5 +214,11 @@ class Main {
     public void reverseInteger(){
         ReverseInteger test = new ReverseInteger();
         test.reverse(321);
+    }
+
+    public void firstUniqueCharacterTest(){
+        FirstUniqueCharacter test = new FirstUniqueCharacter();
+        test.firstUniqChar("leetcode");
+
     }
 }
