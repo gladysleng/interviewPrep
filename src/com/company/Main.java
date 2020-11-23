@@ -25,7 +25,9 @@ class Main {
  //       m1.returnTheMaxTest();
 //        m1.sunkenShipsTest();
 //        m1.spaceTest();
-        m1.trendTest();
+//        m1.trendTest();
+ //       m1.fizzbussTest();
+        m1.reverseInteger();
     }
 
     public void kidsWithCandies() {
@@ -201,5 +203,15 @@ class Main {
         trendmicro test = new trendmicro();
         int [] a = {1,4,4,8,8,5,10};
         System.out.println(test.solution(a));
+    }
+
+    public void fizzbussTest(){
+        Fizzbuzz test = new Fizzbuzz();
+        test.fizzBuzz(15);
+    }
+
+    public void reverseInteger(){
+        ReverseInteger test = new ReverseInteger();
+        test.reverse(321);
     }
 }
