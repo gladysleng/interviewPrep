@@ -28,7 +28,8 @@ class Main {
 //        m1.trendTest();
  //       m1.fizzbussTest();
 //        m1.reverseInteger();
-        m1.firstUniqueCharacterTest();
+//        m1.firstUniqueCharacterTest();
+        m1.longestCommanPrefixTest();
     }
 
     public void kidsWithCandies() {
@@ -220,5 +221,11 @@ class Main {
         FirstUniqueCharacter test = new FirstUniqueCharacter();
         test.firstUniqChar("leetcode");
 
+    }
+
+    public void longestCommanPrefixTest(){
+        LongestCommonPrefix test = new LongestCommonPrefix();
+        String [] a = {"abcde","abcfg","abchi"};
+        test.longestCommonPrefix(a);
     }
 }
