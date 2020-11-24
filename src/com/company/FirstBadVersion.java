@@ -2,6 +2,7 @@ package com.company;
 
 public class FirstBadVersion {
     public int firstBadVersion(int n) {
+        /*
         int left = 1;
         int right = n;
 
@@ -21,7 +22,10 @@ public class FirstBadVersion {
                 left = mid + 1;
             }
         }
-        return left;
+         return left;
+        */
+         return 0;
+
     }
 
     // unit test will test 1 element, 2 elements

@@ -8,7 +8,7 @@ class Main {
 
         Main m1 = new Main();
 //        m1.kidsWithCandies();
-//        m1.numOfStepsToReduceNumToZero();
+        m1.numOfStepsToReduceNumToZero();
 //        m1.jewelsAndStones();
 //        m1.invertBinaryTree();
 //        m1.defangingIPAdressTest();
@@ -21,7 +21,7 @@ class Main {
  //       m1.numbersWithSameConsecutiveDifferencesTest();
 //        m1.longestTimeForGivenDigitsTest();
 //        m1.returnSmallestPositiveInt();
-//        m1.numOfStepsReduceToZeroFromBinaryTest();
+        m1.numOfStepsReduceToZeroFromBinaryTest();
  //       m1.returnTheMaxTest();
 //        m1.sunkenShipsTest();
 //        m1.spaceTest();
@@ -29,7 +29,7 @@ class Main {
  //       m1.fizzbussTest();
 //        m1.reverseInteger();
 //        m1.firstUniqueCharacterTest();
-        m1.longestCommanPrefixTest();
+//        m1.longestCommanPrefixTest();
     }
 
     public void kidsWithCandies() {
@@ -47,15 +47,7 @@ class Main {
     public void numOfStepsToReduceNumToZero() {
         numOfStepsToReduceNumToZero test = new numOfStepsToReduceNumToZero();
 
-        int i = 1;
- //       int numOdd = 123;
- //       int zero = 0;
-
-        String binString = Integer.toBinaryString(i);
-        System.out.println(binString);
-        System.out.println(test.numberOfSteps(i));
- //       System.out.print(", Odd Number: " + test.numberOfSteps(numOdd));
- //       System.out.println(", Zero Number: " + test.numberOfSteps(zero));
+        System.out.println(test.numberOfSteps(7));
     }
 
     public void jewelsAndStones() {
@@ -170,7 +162,7 @@ class Main {
 
     public void numOfStepsReduceToZeroFromBinaryTest(){
         numOfStepsReduceToZeroFromBinary t = new numOfStepsReduceToZeroFromBinary();
-        String binary = "0";
+        String binary = "111";
         System.out.println("binary steps: " + t.numOfStepsReduceToZeroFromBinary(binary));
 
     }
