@@ -5,13 +5,16 @@ public class ListNode {
     int val;
     ListNode next;
 
+    ListNode() {
+    }
+
     ListNode(int x) {
         val = x;
     }
-    public void deleteNode(ListNode node) {
-        if(node.next != null){
-            node.val = node.next.val;
-            node.next = node.next.next;
-        }
+
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
     }
+
 }
